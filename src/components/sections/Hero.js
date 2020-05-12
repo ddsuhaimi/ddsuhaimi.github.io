@@ -12,7 +12,7 @@ const Hero = () => {
           I am a web developer from Indonesia focusing on developing exceptional
           web apps and everything in web development.
         </p>
-        <Button variant="outline-primary">Get in touch</Button>{' '}
+        <Button href="mailto:dedisuhaimiacc@gmail.com" variant="outline-primary">Get in touch</Button>{' '}
       </Col>
     </section>
   );
