@@ -1,0 +1,11 @@
+$theme-colors: (
+    "primary": #e43f5a,
+    "light": #CCD6EB,
+    "danger": teal,
+);
+
+$body-bg: #162447;
+$body-color: rgb(136, 146, 176);
+$lighter: rgb(136, 146, 176);
+$enable-responsive-font-sizes: true;
+@import "~bootstrap/scss/bootstrap";
