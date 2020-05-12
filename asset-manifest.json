@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6af15f6.chunk.css",
+    "main.js": "/static/js/main.9d3ab138.chunk.js",
+    "main.js.map": "/static/js/main.9d3ab138.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7b4ca07.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7b4ca07.js.map",
+    "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
+    "static/js/2.56481aa5.chunk.js": "/static/js/2.56481aa5.chunk.js",
+    "static/js/2.56481aa5.chunk.js.map": "/static/js/2.56481aa5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e6026387abdfb35eaa0d4a4b89d05bc3.js": "/precache-manifest.e6026387abdfb35eaa0d4a4b89d05bc3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.e6af15f6.chunk.css.map": "/static/css/main.e6af15f6.chunk.css.map",
+    "static/js/2.56481aa5.chunk.js.LICENSE.txt": "/static/js/2.56481aa5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/RobotoMono-Regular.b4618f1f.ttf",
+    "static/media/covid19.png": "/static/media/covid19.ee09d95f.png",
+    "static/media/tagihanku.png": "/static/media/tagihanku.710377aa.png",
+    "static/media/tutor.png": "/static/media/tutor.cf73bb18.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7b4ca07.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.56481aa5.chunk.js",
+    "static/css/main.e6af15f6.chunk.css",
+    "static/js/main.9d3ab138.chunk.js"
+  ]
+}
