@@ -8,7 +8,7 @@ const Technology = () => {
   ];
   return (
     <section id="technology" className="full-vh d-flex justify-content-center align-items-center">
-      <Col lg={8}>
+      <Col data-aos="fade-up" lg={8}>
         <h2 className="title-color">
           <span className="mono text-primary">02.</span> Things I am familiar
           with

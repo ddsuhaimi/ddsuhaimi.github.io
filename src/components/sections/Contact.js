@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md'
 const Contact = () => {
   return (
     <section id="contact" className="full-vh d-flex justify-content-center align-items-center">
-      <Col lg={4}>
+      <Col data-aos="fade-up" lg={4}>
         <h2 className="title-color">
           <span className="mono text-primary">03.</span> Let's get to work
         </h2>
