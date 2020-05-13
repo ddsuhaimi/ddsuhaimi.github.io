@@ -15,7 +15,7 @@ const Notable = () => {
       desc:
         "Searching for has never been easier. Jobify collects job post from various websites based on user's search and location.",
       stacks: ["React", "API", "Bootstrap"],
-      links: ["#", "#"],
+      links: ["https://github.com/dediacc/job-search", ""],
     },
     {
       title: "Mamah Dedeh",
@@ -29,7 +29,7 @@ const Notable = () => {
       desc:
     `A script I used to scrape scholarships and filter them based on spesific criteria. Feature includes exporting to csv`,
       stacks: ["Python", "BeautifulSoup", ],
-      links: ["#", ""],
+      links: ["https://github.com/dediacc/scholarship_scraper", ""],
     },
   ];
   return (
