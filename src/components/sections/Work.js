@@ -5,8 +5,21 @@ import Notable from './Notable'
 import tagihanku from '../../assets/image/tagihanku.png'
 import covid19 from '../../assets/image/covid19.png'
 import tutor from '../../assets/image/tutor.png'
+import noteed from '../../assets/image/noteed.png'
 const Work = () => {
   const works = [
+    {
+      featured: true,
+      title: "Noteed",
+      image: noteed,
+      desc:
+        "Noteed is a note-taking web app that allows user to create note with full CRUD functionality. It also allows login or register for a new user.",
+      stacks: ["Node.js", "MongoDB", "Express", "React", "Redux", "Material UI"],
+      links: [
+        "https://github.com/dediacc/noteed",
+        "https://noteed.herokuapp.com",
+      ],
+    },
     {
       featured: true,
       title: "Tagihanku",
