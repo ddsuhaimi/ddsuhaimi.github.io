@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="display-1 title-color">Dedi Suhaimi</h1>
         <h2 className="display-4 lighter mb-5"> and I'll build your web apps.</h2>
         <p className="col-sm-8 pl-0 mb-5">
-          I am a web developer from Indonesia focusing on developing exceptional
+          I am a software engineer from Indonesia focusing on developing exceptional
           web apps and everything in web development.
         </p>
         <Button href="mailto:dedisuhaimiacc@gmail.com" variant="outline-primary">Get in touch</Button>{' '}

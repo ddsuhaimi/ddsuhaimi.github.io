@@ -29,6 +29,11 @@ body {
   color: rgb(204, 214, 246)
 }
 
+.menu-sticky {
+  background: #0e1c3e;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
 // hero
 .full-vh {
   min-height: 100vh;
@@ -38,6 +43,19 @@ body {
   background-color: rgba($color: #fff, $alpha: 0.1);
   box-shadow: 0 2px 4px 0  $black;
 }
+
+#work .nav-item:hover {
+  background: #172852;
+  opacity: 0.6;
+}
+#work .nav-link {
+  color: $body-color;
+}
+#work .nav-link.active {
+  background: $primary;
+  color: white;
+}
+
 
 
 // notable proects 
@@ -54,5 +72,7 @@ div.project-desc:hover {
 }
 
 @media screen and (max-width:768px) {
-
+  #work .role {
+    margin-top: 20px;
+  }
 }

@@ -10,7 +10,7 @@ const Technology = () => {
     <section id="technology" className="full-vh d-flex justify-content-center align-items-center">
       <Col data-aos="fade-up" lg={8}>
         <h2 className="title-color">
-          <span className="mono text-primary">02.</span> Things I am familiar
+          <span className="mono text-primary">03.</span> Techs I am familiar
           with
         </h2>
         <hr className="border-light" />

@@ -1,140 +1,81 @@
-import React from "react";
-import { Row, Col, Image } from "react-bootstrap";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import Notable from './Notable'
-import tagihanku from '../../assets/image/tagihanku.png'
-import covid19 from '../../assets/image/covid19.png'
-import tutor from '../../assets/image/tutor.png'
-import noteed from '../../assets/image/noteed.png'
+import React from 'react'
+import { Tab, Row, Col, Nav } from 'react-bootstrap'
+import { FaCalendarAlt } from "react-icons/fa";
+
 const Work = () => {
-  const works = [
-    {
-      featured: true,
-      title: "Noteed",
-      image: noteed,
-      desc:
-        "Noteed is a note-taking web app that allows user to create note with full CRUD functionality. It also allows login or register for a new user.",
-      stacks: ["Node.js", "MongoDB", "Express", "React", "Redux", "Material UI"],
-      links: [
-        "https://github.com/dediacc/noteed",
-        "https://noteed.herokuapp.com",
-      ],
-    },
-    {
-      featured: true,
-      title: "Tagihanku",
-      image: tagihanku,
-      desc:
-        "Tagihanku is web app that generate an invoice in seconds. Features include logo (any size you want), various custom fields, save to jpeg etc.",
-      stacks: ["React", "Bootstrap", "Redux"],
-      links: [
-        "https://github.com/dediacc/tagihanku",
-        "https://tagihanku.now.sh/",
-      ],
-    },
-    {
-      featured: true,
-      title: "Covid-19 World Stats",
-      image: covid19,
-      desc:
-        "An interactive dashboard displaying Corona Virus infection statistics across the world. Features include worldwide and country-wise dashobard, interactive charts and maps.",
-      stacks: ["React", "Chart.js", "Context API", "NovelCovid API", "Leaflet", "Bulma"],
-      links: [
-        "https://github.com/dediacc/coronavirus-dashboard-react",
-        "https://covid19worldstatsxyz.netlify.app/",
-      ],
-    },
-    {
-      featured: true,
-      title: "Tutor Management System",
-      image: tutor,
-      desc:
-        "An admin dashoard for managing tutor in a school system. Admin can perfom CRUD (Create, Read, Update and Delete) functionality.",
-      stacks: ["React", "Redux", "Bulma"],
-      links: [
-        "https://github.com/dediacc/tutor-management",
-        "https://tutor-management.now.sh/",
-      ],
-    },
-  ];
-
-  return (
-    <section id="work" className="full-vh mb-4 d-flex flex-column justify-content-center align-items-center">
-      <Col lg={8}>
-        <h2 className="title-color">
-          <span className="mono text-primary">01.</span> Things I've built{" "}
-        </h2>
-        <hr className="border-light"/>
-        {works.map((work, i) => (
-          <Row data-aos={`${i%2===0 ? "fade-left" : "fade-right"}`}
-            className={`mb-4 py-4 d-flex ${
-              i % 2 === 0 ? "flex-row" : "flex-row-reverse"
-            }`}
-          >
-            <Col md={6} className="mb-4">
-              <Image className="project-image" src={work.image} />
+    return (
+        <section id="work" className="full-vh mb-4 d-flex flex-column justify-content-center align-items-center">
+            <Col data-aos="fade-up" lg={8}>
+                <h2 className="title-color">
+                    <span className="mono text-primary">01.</span> Places I've worked at{" "}
+                </h2>
+                <hr className="border-light" />
+                <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                    <Row>
+                        <Col sm={3}>
+                            <Nav variant="pills" className="flex-column" >
+                                <Nav.Item>
+                                    <Nav.Link eventKey="first">Formulatrix</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="second">MIM System</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="third">Syiah Kuala University</Nav.Link>
+                                </Nav.Item>
+                            </Nav>
+                        </Col>
+                        <Col sm={9} className="role">
+                            <Tab.Content>
+                                <Tab.Pane eventKey="first">
+                                    <h4 className="text-primary mb-0">Software Engineer</h4>
+                                    <div className="d-flex align-items-center">
+                                        <FaCalendarAlt></FaCalendarAlt>
+                                        <span className="text-muted ml-2 mono text-light">November 2020 - present</span>
+                                    </div>
+                                    <div className="mt-4">
+                                        <ul className="pl-3 text-light">
+                                            <li>Working on company's liquid handling product Flo i8's user interface using React.js</li>
+                                            <li>Contributing to developing company's UI component and design system</li>
+                                            <li>Collaborating with various member across the team such as UI/UX designer, quality analyst and other software engineers in tackling and solving UI problems</li>
+                                        </ul>
+                                    </div>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="second">
+                                    <h4 className="text-primary mb-0">Front End Developer</h4>
+                                    <div className="d-flex align-items-center">
+                                        <FaCalendarAlt></FaCalendarAlt>
+                                        <span className="text-muted ml-2 mono text-light">June 2020 - July 2020</span>
+                                    </div>
+                                    <div className="mt-4">
+                                        <ul className="pl-3 text-light">
+                                            <li>Working on company's internal management system built with React.js and DevExtreme and various other UI technologies</li>
+                                            <li>Developing modules and pages while maintaining readability and extensiblity</li>
+                                            <li>Migrating old web app to a new template</li>
+                                        </ul>
+                                    </div>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="third">
+                                    <h4 className="text-primary mb-0">Laboratory Assistant</h4>
+                                    <div className="d-flex align-items-center">
+                                        <FaCalendarAlt></FaCalendarAlt>
+                                        <span className="text-muted ml-2 mono text-light">June 2017 - July 2019</span>
+                                    </div>
+                                    <div className="mt-4">
+                                        <ul className="pl-3 text-light">
+                                            <li>Teaching computational mathematics courses: Algorithm and Programming, Introduction to Multimedia, Mathematics Software. All using ActionScript 3.0</li>
+                                            <li>Grading and preparing examinations for said courses</li>
+                                            <li>Preparing and maintaining laboratorium week the courses.</li>
+                                        </ul>
+                                    </div>
+                                </Tab.Pane>
+                            </Tab.Content>
+                        </Col>
+                    </Row>
+                </Tab.Container>
             </Col>
-            <Col
-              md={6}
-              className={`${
-                i % 2 === 0 ? "text-right" : "text-left"
-              } d-flex align-items-center`}
-            >
-              <div className="d-flex flex-column">
-                <h6 className="mono text-primary">Featured projects</h6>
-                <h3 className="title-color">{work.title}</h3>
-                <p
-                  className={`${
-                    i % 2 === 0 ? "float-right" : "float-left"
-                  } project-desc text-light py-4 px-2 mb-4`}
-                >
-                  {work.desc}
-                </p>
-                <ul
-                  className={`${
-                    i % 2 === 0
-                      ? "justify-content-end"
-                      : "justify-content-start"
-                  } d-flex flex-wrap list-unstyled mono mb-4`}
-                >
-                  {work.stacks.map((tech) => (
-                    <li className={`${i % 2 === 0 ? "ml-4" : "mr-4"}`}>
-                      {tech}
-                    </li>
-                  ))}
-                </ul>
-                <p>
-                  <ul
-                    className={`${
-                      i % 2 === 0
-                        ? "justify-content-end"
-                        : "justify-content-start"
-                    } d-flex list-unstyled`}
-                  >
-                    <li className={`${i % 2 === 0 ? "ml-4" : "mr-4"}`}>
-                      <a className="text-light" href={work.links[0]}>
-                        <FaGithub></FaGithub>
-                      </a>
-                    </li>
-                    <li className={`${i % 2 === 0 ? "ml-4" : "mr-4"}`}>
-                      <a className="text-light" href={work.links[1]}>
-                        <FaExternalLinkAlt></FaExternalLinkAlt>
-                      </a>
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </Col>
-          </Row>
-        ))}
-      </Col>
-
-
-
-      <Notable />
-
-    </section>
-  );
-};
+        </section>
+    )
+}
 
 export default Work;
