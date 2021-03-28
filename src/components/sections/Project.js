@@ -16,7 +16,7 @@ const Project = () => {
         "Noteed is a note-taking web app that allows user to create note with full CRUD functionality. It also allows login or register for a new user.",
       stacks: ["Node.js", "MongoDB", "Express", "React", "Redux", "Material UI"],
       links: [
-        "https://github.com/dediacc/noteed",
+        "https://github.com/ddsuhaimi/noteed",
         "https://noteed.herokuapp.com",
       ],
     },
@@ -28,7 +28,7 @@ const Project = () => {
         "Tagihanku is web app that generate an invoice in seconds. Features include logo (any size you want), various custom fields, save to jpeg etc.",
       stacks: ["React", "Bootstrap", "Redux"],
       links: [
-        "https://github.com/dediacc/tagihanku",
+        "https://github.com/ddsuhaimi/tagihanku",
         "https://tagihanku.now.sh/",
       ],
     },
@@ -40,7 +40,7 @@ const Project = () => {
         "An interactive dashboard displaying Corona Virus infection statistics across the world. Features include worldwide and country-wise dashobard, interactive charts and maps.",
       stacks: ["React", "Chart.js", "Context API", "NovelCovid API", "Leaflet", "Bulma"],
       links: [
-        "https://github.com/dediacc/coronavirus-dashboard-react",
+        "https://github.com/ddsuhaimi/coronavirus-dashboard-react",
         "https://covid19worldstatsxyz.netlify.app/",
       ],
     },
@@ -52,7 +52,7 @@ const Project = () => {
         "An admin dashoard for managing tutor in a school system. Admin can perfom CRUD (Create, Read, Update and Delete) functionality.",
       stacks: ["React", "Redux", "Bulma"],
       links: [
-        "https://github.com/dediacc/tutor-management",
+        "https://github.com/ddsuhaimi/tutor-management",
         "https://tutor-management.now.sh/",
       ],
     },

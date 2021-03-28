@@ -23,7 +23,7 @@ const Contact = () => {
           <p>or if you prefer contacting by other means</p>
           <ul className="list-unstyled d-flex justify-content-between ">
             <li className="mx-2">
-              <Button href="https://www.github.com/dediacc" variant="outline-primary">
+              <Button href="https://www.github.com/ddsuhaimi" variant="outline-primary">
                 <FaGithub />
               </Button>
             </li>

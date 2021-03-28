@@ -8,14 +8,14 @@ const Notable = () => {
       desc:
         "Interactive resort website which listed all available rooms. Feature includes room filtering and room-wise page.",
       stacks: ["React", "Context", "Contentful"],
-      links: ["https://github.com/dediacc/react-beach-resort-recording", ""],
+      links: ["https://github.com/ddsuhaimi/react-beach-resort-recording", ""],
     },
     {
       title: "Jobify",
       desc:
         "Searching for has never been easier. Jobify collects job post from various websites based on user's search and location.",
       stacks: ["React", "API", "Bootstrap"],
-      links: ["https://github.com/dediacc/job-search", ""],
+      links: ["https://github.com/ddsuhaimi/job-search", ""],
     },
     {
       title: "Mamah Dedeh",
@@ -29,7 +29,7 @@ const Notable = () => {
       desc:
     `A script I used to scrape scholarships and filter them based on spesific criteria. Feature includes exporting to csv`,
       stacks: ["Python", "BeautifulSoup", ],
-      links: ["https://github.com/dediacc/scholarship_scraper", ""],
+      links: ["https://github.com/ddsuhaimi/scholarship_scraper", ""],
     },
   ];
   return (
