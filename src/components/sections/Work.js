@@ -2,6 +2,7 @@ import React from 'react'
 import { Tab, Row, Col, Nav } from 'react-bootstrap'
 import { FaCalendarAlt } from "react-icons/fa";
 
+
 const Work = () => {
     return (
         <section id="work" className="full-vh mb-4 d-flex flex-column justify-content-center align-items-center">
