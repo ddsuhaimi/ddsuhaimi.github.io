@@ -2,8 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 const Technology = () => {
   const skills = [
-    { title: "language", stacks: ["Javascript", "HTML", "CSS/Sass", "Python", "SQL", "MongoDB", "Matlab", "Actionscript 3.0"] },
-    { title: "framework", stacks: ["Node.js", "Express", "React.js", "Redux",  "Boostrap, Bulma, Material UI", "Chart.js", "Leaflet", "BeautifulSoup"] },
+    { title: "language", stacks: ["Javascript", "HTML", "CSS/Sass", "Python", "C#", "SQL", "MongoDB", "Matlab", "Actionscript 3.0"] },
+    { title: "framework", stacks: ["Node.js", "Express", "Webpack", "React.js", "Redux",  "Boostrap, Bulma, Material UI", "ASP.NET"] },
     { title: "tools", stacks: ["Visual Studio Code", "Git & Github", "Chrome Dev Tools", "NPM"] },
   ];
   return (
